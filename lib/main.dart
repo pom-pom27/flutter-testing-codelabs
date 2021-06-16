@@ -6,10 +6,10 @@ import 'screens/favorites.dart';
 import 'screens/home.dart';
 
 void main() {
-  runApp(TestingApp());
+  runApp(MyApp());
 }
 
-class TestingApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<Favorites>(

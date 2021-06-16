@@ -24,7 +24,6 @@ class HomePage extends StatelessWidget {
         ],
       ),
       body: ListView.builder(
-        key: Key('listview'),
         itemCount: 100,
         cacheExtent: 20.0,
         padding: const EdgeInsets.symmetric(vertical: 16),
